@@ -1,0 +1,26 @@
+{
+  "_schema": {
+    "id": "short slug, unique",
+    "ticker": "best ticker, uppercase",
+    "display_name": "human name shown on the create page",
+    "backup_ticker": "second choice",
+    "catalyst": "one line, plain words",
+    "confidence": "CONFIRMED | LIKELY | RUMOR | SINGLE SOURCE",
+    "catalyst_time_wat": "YYYY-MM-DD HH:MM or null",
+    "sources": ["url", "url"],
+    "status": "EMPTY | DUST | TAKEN | STALE",
+    "status_detail": "chain, CA, mcap for DUST/TAKEN",
+    "last_checked_wat": "YYYY-MM-DD HH:MM",
+    "recheck_every_min": 360,
+    "competitor_cas": ["chain:CA ~$mcap"],
+    "prelaunch_signals": {"domains": [], "telegram": [], "x_mentions_1h": 0, "new_tokens_matching": 0},
+    "trigger": "launch when ... | launch T-24h | launch now | hold",
+    "kit_status": "none | brief | full",
+    "pack_path": "launch-packs/<TICKER>/PACK.md or null",
+    "outcome": "open | launched | died | missed | dropped",
+    "notes": "free text: source habits, reasons, who is prepping it",
+    "created_wat": "YYYY-MM-DD HH:MM",
+    "updated_wat": "YYYY-MM-DD HH:MM"
+  },
+  "rows": []
+}
